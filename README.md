@@ -4,6 +4,8 @@ Keyboard shortcut (`Ctrl+S`) to collapse/expand the **native vertical tab bar** 
 
 Chrome doesn't expose any extension API or built-in shortcut to toggle the vertical tab strip. This extension works around that limitation by using **Native Messaging** to call an **AppleScript** that clicks the native "Collapse Tabs" / "Expand Tabs" button via macOS Accessibility.
 
+Inspired by [this tweet from @sawyerhood](https://x.com/sawyerhood/status/2036944017146208402).
+
 ## How it works
 
 ```
